@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://source.unsplash.com/featured/?spa') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: #50b3a2;
+    color: white;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+#slogan {
+    font-size: 1.2em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#search {
+    margin-top: 20px;
+}
+
+#searchBars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#locationInput,
+#lengthInput,
+#dateInput {
+    padding: 12px;
+    border-radius: 5px;
+    width: 32%;
+    margin: 0;
+}
+
+button {
+    display: block;
+    padding: 12px;
+    background-color: #50b3a2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#subMenu ul {
+    background-color: #338376;
+    margin: 0;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background: #50b3a2;
+    color: white;
+}
