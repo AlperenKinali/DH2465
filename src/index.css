@@ -100,3 +100,13 @@ footer {
   background: #50b3a2;
   color: white;
 }
+.Bottombar{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#logo{
+  padding-left: 10px;
+  text-align: center;
+}

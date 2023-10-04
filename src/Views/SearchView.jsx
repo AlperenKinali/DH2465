@@ -19,6 +19,7 @@ function SearchView(props){
     </div>)
 
     function SearchACB(){
+        // eslint-disable-next-line react/prop-types
         props.onSearch()
     }
 }

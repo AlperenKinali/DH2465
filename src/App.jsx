@@ -4,7 +4,6 @@ import Search from './Presenters/SearchPresenter.jsx'
 import Result from "./Presenters/ResultPresenter.jsx";
 import Topbar from "./Presenters/TopbarPresenter.jsx";
 import Bottombar from "./Presenters/BottombarPresenter.jsx";
-import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,9 +19,9 @@ function App() {
   ]
   return (
     <div>
-        <Topbar/>
-        <div><RouterProvider router={createHashRouter(routes)}/></div>
-        <Bottombar/>
+        <div className={"Topbar"}><Topbar/></div>
+        <div className={"Body"}><RouterProvider router={createHashRouter(routes)}/></div>
+        <div className={"Bottombar"}><Bottombar/></div>
     </div>
   )
 }
