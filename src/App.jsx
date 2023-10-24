@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import {createHashRouter, RouterProvider, useNavigate} from "react-router-dom";
-import Search from './Presenters/SearchPresenter.jsx'
-import Result from "./Presenters/ResultPresenter.jsx";
+import Home from './Presenters/HomePresenter.jsx'
+import Search from "./Presenters/SearchPresenter.jsx";
 import Topbar from "./Presenters/TopbarPresenter.jsx";
 import Bottombar from "./Presenters/BottombarPresenter.jsx";
 
@@ -10,18 +10,19 @@ function App() {
   const routes = [
       {
           path: "/",
-          element: <div className="homePage"><Search/></div>
+          element: <div className="homePage"><Home/></div>
       },
       {
-          path: "/result",
-          element: <div className="resultPage"><Result/></div>
+          path: "/search",
+          element: <div className="searchPage"><Search/></div>
       }
   ]
   return (
-    <div>
+    <div id="holder">
         <div className={"Topbar"}><Topbar/></div>
         <div className={"Body"}><RouterProvider router={createHashRouter(routes)}/></div>
-        <div className={"Bottombar"}><Bottombar/></div>
+        {/*<div className={"Bottombar"}><Bottombar/></div>*/}
+        <Bottombar/>
     </div>
   )
 }

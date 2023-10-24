@@ -1,8 +1,11 @@
-import SearchView from "../Views/SearchView.jsx";
-export default function Search(){
-    return <SearchView onSearch = {StartSearchACB}/>
+import SearchBar from "../Views/searchBarView.jsx";
+import Result from "../Views/ResultView.jsx";
 
-    function StartSearchACB(){
-        window.location.hash = "#/result"
-    }
+export default function Search() {
+    return (
+        <div>
+            <SearchBar id="main"/>
+            <Result/>
+        </div>)
+
 }

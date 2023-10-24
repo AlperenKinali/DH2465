@@ -2,9 +2,7 @@ import Logo from "../assets/Logo.png"
 
 function TopbarView(props) {
     return (
-        <div>
-            <header>
-                <nav>
+        <div id="header">
                     <a href="#/">
                         <div id="logo">
                             <img src={Logo} alt={"Book a Spa"} width={"100"}/>
@@ -12,12 +10,10 @@ function TopbarView(props) {
                         </div>
                     </a>
                     <ul id="mainMenu">
-                        <li><a href="#/">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li className="topbaritem"><a href="#/">Home</a></li>
+                        <li className="topbaritem"><a href="#/">About Us</a></li>
+                        <li className="topbaritem"><a href="#/">Contact</a></li>
                     </ul>
-                </nav>
-            </header>
         </div>
     )
 }

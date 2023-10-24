@@ -1,12 +1,11 @@
-#subMenu ul {
-  background-color: #338376;
-  margin: 0;
-  padding: 0.5em 0;
-  text-align: center;
-  position: absolute;
-  width: 100%;
-  top: 50%;
+html,body, #root{
+  padding: 0; margin: 0;
 }
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -16,21 +15,27 @@ body {
   /*background-size: cover;*/
 }
 
-header {
+#header {
   background: #50b3a2;
   color: white;
   padding: 1em 0;
-}
-
-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+#subMenu ul {
+  background-color: #338376;
+  margin: 0;
+  padding: 0.5em 0;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+}
+
+
 #logo a {
-  color: white;
-  text-decoration: none;
   font-size: 2em;
 }
 
@@ -38,12 +43,7 @@ nav {
   font-size: 1.2em;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
+.topbaritem {
   display: inline;
   margin-right: 20px;
 }
@@ -55,6 +55,11 @@ a {
 
 #main {
   padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.searchComp{
+  padding: 10px 0px;
   background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -78,19 +83,17 @@ button {
   width: 100%;
 }
 
-#subMenu ul {
-  background-color: #338376;
-  margin: 0;
-  padding: 0.5em 0;
-  text-align: center;
-}
-
-footer {
+.footer {
+  bottom: 0;
+  width: 100%;
+  /*position: fixed;*/
+  display: flex;
   text-align: center;
   padding: 30px 20px;
   background: #50b3a2;
   color: white;
-}
+  }
+
 .Bottombar{
   bottom: 0;
   width: 100%;
@@ -103,8 +106,13 @@ footer {
 
 .searchInput{
   grid-template-rows: 5px 5px;
-  width: 110px;
+  /*width: 100%;*/
   margin-left: 10px;
+}
+
+#dateInput{
+  width: 205px;
+  height: 29px;
 }
 
 #home{
@@ -116,8 +124,8 @@ footer {
 }
 
 #input{
-  width: 114.33px;
-  height: 21.33px;
+  width: 205px;
+  height: 29px;
 }
 
 #searchButton{
@@ -171,7 +179,136 @@ footer {
   display: flex;
 }
 
+.homeText{
+  text-align: center;
+}
+
 .infoImage{
   width: inherit;
   height: inherit;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+#CR{
+  width: 33%;
+}
+#socials{
+  width: 33%;
+}
+#nr{
+  width: 33%;;
+}
+
+#body{
+  padding-bottom: 1250px;
+}
+
+#holder{
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+#results{
+  display: grid;
+  grid-template-columns: 700px;
+  justify-content: center;
+  text-align: center;
+}
+
+.hotelSpa{
+  display: grid;
+  grid-template-columns: 300px auto;
+  width: auto;
+  background: white;
+  margin-bottom: 25px;
+  text-align: center;
+  padding: 35px 20px;
+  /*justify-content: center;*/
+ }
+
+
+.hotelSpa img{
+  width: 100%;
+}
+.hotelSpa h1, .hotelSpa h2{
+  margin-top: 0;
+}
+
+.description{
+  /*background: red;*/
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.util{
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 10px;
+}
+
+.util li{
+  text-align: start;
+}
+
+.util ul li:before{
+  content: '✓';
+  /*position: absolute;*/
+  left: 0;
+}
+
+.util ul{
+  padding-left: 10px;
+  list-style: none;
+}
+
+.util h3{
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+#price{
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: auto ;
+}
+
+#price h4{
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+#price p{
+  margin-top: 5px;
+}
+
+#right{
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
