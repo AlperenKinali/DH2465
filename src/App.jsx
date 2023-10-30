@@ -4,17 +4,21 @@ import Home from './Presenters/HomePresenter.jsx'
 import Search from "./Presenters/SearchPresenter.jsx";
 import Topbar from "./Presenters/TopbarPresenter.jsx";
 import Bottombar from "./Presenters/BottombarPresenter.jsx";
-
+import Book from "./Presenters/BookPresenter.jsx"
 function App() {
   const [count, setCount] = useState(0)
   const routes = [
       {
           path: "/",
-          element: <div className="homePage"><Home/></div>
+          element: <Home/>
       },
       {
           path: "/search",
           element: <div className="searchPage"><Search/></div>
+      },
+      {
+          path: "/book",
+          element: <Book/>
       }
   ]
   return (
