@@ -9,7 +9,7 @@ function BookView(props){
 
     if (booked)
         return (
-        <div>
+        <div className="book-elem-1">
             <span className="home-elem-22"><p>Thanks for booking </p></span>
             <button className="home-elem-26"><a href="#"><p>Home </p></a></button>
         </div>)

@@ -1,4 +1,5 @@
 import Logo from "../assets/Logo.png"
+import LogoMain from "../assets/logo-no-background.svg"
 
 function TopbarView(props) {
     return (
@@ -7,17 +8,32 @@ function TopbarView(props) {
                 <div className="home-elem-8">
                     <a href={"#"}>
                     <span className="home-elem-12">
-                        <p>BookASpa </p>
+                        <img src={LogoMain}/>
                     </span></a>
                 </div>
                 <div className="home-elem-9">
-                    <div className="home-elem-5"> <span className="home-elem-2"><a href="#" className="link">
+                    <div className="home-elem-5">
+                        <span className="home-elem-2">
+                            <a href="#" className="link">
                                 <p>Discover </p>
-                            </a> </span><span className="home-elem-3"><a href="#" className="link">
+                            </a>
+                        </span>
+                        <span className="home-elem-3">
+                            <a href="#/search" className="link">
                                 <p>Compare </p>
-                            </a> </span><span className="home-elem-4"><a href="#/search" className="link">
+                            </a>
+                        </span>
+                        <span className="home-elem-4">
+                            <a href="#/search" className="link">
                                 <p>Book </p>
-                            </a> </span></div>
+                            </a>
+                        </span>
+                        <span className="home-elem-3">
+                            <a href="#/about" className="link">
+                                <p>About </p>
+                            </a>
+                        </span>
+                    </div>
                 </div>
                 <div className="home-elem-11">
                     <button className="home-elem-10"><a href="#" className="link" target="_self">

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import {createHashRouter, RouterProvider, useNavigate} from "react-router-dom";
 import Home from './Presenters/HomePresenter.jsx'
+import About from './Presenters/AboutPresenter.jsx'
 import Search from "./Presenters/SearchPresenter.jsx";
 import Topbar from "./Presenters/TopbarPresenter.jsx";
 import Bottombar from "./Presenters/BottombarPresenter.jsx";
@@ -19,6 +20,10 @@ function App() {
       {
           path: "/book",
           element: <Book/>
+      },
+      {
+          path: "/about",
+          element: <About/>
       }
   ]
   return (

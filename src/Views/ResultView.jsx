@@ -13,28 +13,36 @@ function ResultView(props) {
     return (
         <div className="search-elem-22">
             <div className="search-elem-2">
-                <span className="search-elem-3">
-                <p>Search Results</p>
-            </span>
+                {/*    <span className="search-elem-3">*/}
+                {/*    <p>Search Results</p>*/}
+                {/*</span>*/}
                 <span className="search-elem-4">
-                <p>Choose from these options</p>
-            </span>
+                    <p>Choose from these options</p>
+                </span>
                 <span className="search-elem-5">
-                <p>Best Spas in Stockholm at the moment</p>
-            </span>
+                    <p>Best Spas in Stockholm at the moment</p>
+                </span>
+                <div className={"Sort"}>
+                    <label>Sort by:</label>
+                    <select name={"Sorting"} id={"sorter"}>
+                        <option><p>Price</p></option>
+                        <option><p>Number of perks</p></option>
+                        <option><p>Distance from your location</p></option>
+                    </select>
+                </div>
             </div>
             <div className="search-elem-1">
                 <div className="search-elem-6">
-                    <div className="search-elem-7">
-                        <button onClick={bookACB}>
+                    <div className="search-elem-7" onClick={bookACB}>
+                        {/*<button onClick={bookACB}>*/}
                         <span className="search-elem-8">
-                        <img src={search1}/>
-                        </span>
+                                <img src={search1}/>
+                            </span>
                         <div className="search-elem-16">
                             <div className="search-elem-9">
-                                <span className="search-elem-10">
-                                <p>Book</p>
-                            </span>
+                                    <span className="search-elem-10">
+                                        <p>Book</p>
+                                    </span>
                                 <div className="search-elem-11">
                                     <div className="search-elem-12">
                                         <span className="search-elem-13">
@@ -49,22 +57,34 @@ function ResultView(props) {
                                     <p>Nature's retreat with organic spa luxury.</p>
                                 </span>
                                 </div>
+                                <div>
+                                        <span className="search-elem-fac">
+                                            <h4>
+                                                <b>Perks</b>
+                                            </h4>
+                                            <ul>
+                                                <li>Eco-friendly treatments</li>
+                                                <li>Serene natural setting</li>
+                                                <li>Organic ingredients</li>
+                                            </ul>
+                                        </span>
+                                </div>
                             </div>
                             <div className="search-elem-17">
-                                <div className="search-elem-18"/>
+                                {/*<div className="search-elem-18"/>*/}
                                 <div className="search-elem-19">
                                     <span className="search-elem-20">
-                                    <p>Olivia Rhye</p>
+                                    <p>Price</p>
                                 </span>
                                     <span className="search-elem-21">
-                                    <p>29 aug 2022</p>
+                                    <p>300 kr</p>
                                 </span>
                                 </div>
                             </div>
                         </div>
-                        </button>
+                        {/*</button>*/}
                     </div>
-                    <div className="search-elem-37">
+                    <div className="search-elem-37" onClick={bookACB}>
                         <span className="search-elem-23">
                         <img
                             src={search3}/>
@@ -87,21 +107,33 @@ function ResultView(props) {
                                     <p>City chic meets spa indulgence.</p>
                                 </span>
                                 </div>
+                                <div>
+                                        <span className="search-elem-fac">
+                                            <h4>
+                                                <b>Perks</b>
+                                            </h4>
+                                            <ul>
+                                                <li>Central city location</li>
+                                                <li>Advanced spa technology</li>
+                                                <li>Panoramic views</li>
+                                            </ul>
+                                        </span>
+                                </div>
                             </div>
-                            <div className="search-elem-35">
-                                <div className="search-elem-31"/>
-                                <div className="search-elem-34">
-                                    <span className="search-elem-32">
-                                    <p>Olivia Rhye</p>
+                            <div className="search-elem-17">
+                                {/*<div className="search-elem-18"/>*/}
+                                <div className="search-elem-19">
+                                    <span className="search-elem-20">
+                                    <p>Price</p>
                                 </span>
-                                    <span className="search-elem-33">
-                                    <p>10 Jan 2022</p>
+                                    <span className="search-elem-21">
+                                    <p>450 kr</p>
                                 </span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="search-elem-52">
+                    <div className="search-elem-52" onClick={bookACB}>
                         <span className="search-elem-38">
                             <img
                                 src={search4}/>
@@ -122,24 +154,35 @@ function ResultView(props) {
                                         </span>
                                     </div>
                                     <span className="cd-paragraph-clean search-elem-43">
-                                    <p>Swedish sauna bliss and natural lake refreshment.</p>
+                                    <p>Swedish sauna bliss and natural lake.</p>
                                 </span>
                                 </div>
+                                <div>
+                                        <span className="search-elem-fac">
+                                            <h4>
+                                                <b>Perks</b>
+                                            </h4>
+                                            <ul>
+                                                <li>Authentic Swedish wellness experience</li>
+                                                <li>Scenic countryside location</li>
+                                            </ul>
+                                        </span>
+                                </div>
                             </div>
-                            <div className="search-elem-50">
-                                <div className="search-elem-46"/>
-                                <div className="search-elem-49">
-                                    <span className="search-elem-47">
-                                    <p>Olivia Rhye</p>
+                            <div className="search-elem-17">
+                                {/*<div className="search-elem-18"/>*/}
+                                <div className="search-elem-19">
+                                    <span className="search-elem-20">
+                                    <p>Price</p>
                                 </span>
-                                    <span className="search-elem-48">
-                                    <p>17 Jun 2022</p>
+                                    <span className="search-elem-21">
+                                    <p>650 kr</p>
                                 </span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="search-elem-67">
+                    <div className="search-elem-67" onClick={bookACB}>
                         <span className="search-elem-53">
                             <img
                                 src={search5}/>
@@ -147,7 +190,7 @@ function ResultView(props) {
                         <div className="search-elem-66">
                             <div className="search-elem-60">
                                 <span className="search-elem-54">
-                                <p>Product</p>
+                                <p>Book</p>
                             </span>
                                 <div className="search-elem-59">
                                     <div className="search-elem-57">
@@ -163,21 +206,33 @@ function ResultView(props) {
                                     <p>Personalized, express beauty treatments.</p>
                                 </span>
                                 </div>
+                                <div>
+                                        <span className="search-elem-fac">
+                                            <h4>
+                                                <b>Perks</b>
+                                            </h4>
+                                            <ul>
+                                                <li>Swift relaxation</li>
+                                                <li>Targeted treatments</li>
+                                                <li>Ideal for busy schedule</li>
+                                            </ul>
+                                        </span>
+                                </div>
                             </div>
-                            <div className="search-elem-65">
-                                <div className="search-elem-61"/>
-                                <div className="search-elem-64">
-                                    <span className="search-elem-62">
-                                    <p>Olivia Rhye</p>
+                            <div className="search-elem-17">
+                                {/*<div className="search-elem-18"/>*/}
+                                <div className="search-elem-19">
+                                    <span className="search-elem-20">
+                                    <p>Price</p>
                                 </span>
-                                    <span className="search-elem-63">
-                                    <p>20 Jan 2023</p>
+                                    <span className="search-elem-21">
+                                    <p>750 kr</p>
                                 </span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="search-elem-82">
+                    <div className="search-elem-82" onClick={bookACB}>
                         <span className="search-elem-68">
                             <img
                                 src={search8}/>
@@ -185,7 +240,7 @@ function ResultView(props) {
                         <div className="search-elem-81">
                             <div className="search-elem-75">
                                 <span className="search-elem-69">
-                                <p>SAAS</p>
+                                <p>Book</p>
                             </span>
                                 <div className="search-elem-74">
                                     <div className="search-elem-72">
@@ -201,21 +256,32 @@ function ResultView(props) {
                                     <p>Ancient secrets for modern facial glow.</p>
                                 </span>
                                 </div>
+                                <div>
+                                        <span className="search-elem-fac">
+                                            <h4>
+                                                <b>Perks</b>
+                                            </h4>
+                                            <ul>
+                                                <li>Expertise in facial treatments</li>
+                                                <li>Exclusive techniques</li>
+                                                </ul>
+                                        </span>
+                                </div>
                             </div>
-                            <div className="search-elem-80">
-                                <div className="search-elem-76"/>
-                                <div className="search-elem-79">
-                                    <span className="search-elem-77">
-                                    <p>Olivia Rhye</p>
+                            <div className="search-elem-17">
+                                {/*<div className="search-elem-18"/>*/}
+                                <div className="search-elem-19">
+                                    <span className="search-elem-20">
+                                    <p>Price</p>
                                 </span>
-                                    <span className="search-elem-78">
-                                    <p>20 Dec 2022</p>
+                                    <span className="search-elem-21">
+                                    <p>900 kr</p>
                                 </span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="search-elem-97">
+                    <div className="search-elem-97" onClick={bookACB}>
                         <span className="search-elem-83">
                             <img
                                 src={search7}/>
@@ -223,7 +289,7 @@ function ResultView(props) {
                         <div className="search-elem-96">
                             <div className="search-elem-90">
                                 <span className="search-elem-84">
-                                <p>Design</p>
+                                <p>Book</p>
                             </span>
                                 <div className="search-elem-89">
                                     <div className="search-elem-87">
@@ -239,15 +305,27 @@ function ResultView(props) {
                                     <p>All-in-one golf and spa sanctuary.</p>
                                 </span>
                                 </div>
+                                <div>
+                                        <span className="search-elem-fac">
+                                            <h4>
+                                                <b>Perks</b>
+                                            </h4>
+                                            <ul>
+                                                <li>Comprehensive wellness</li>
+                                                <li>Leisure activities</li>
+                                                <li>Luxurious amenities</li>
+                                            </ul>
+                                        </span>
+                                </div>
                             </div>
-                            <div className="search-elem-95">
-                                <div className="search-elem-91"/>
-                                <div className="search-elem-94">
-                                    <span className="search-elem-92">
-                                    <p>Olivia Rhye</p>
+                            <div className="search-elem-17">
+                                {/*<div className="search-elem-18"/>*/}
+                                <div className="search-elem-19">
+                                    <span className="search-elem-20">
+                                    <p>Price</p>
                                 </span>
-                                    <span className="search-elem-93">
-                                    <p>20 Jan 2022</p>
+                                    <span className="search-elem-21">
+                                    <p>1 300 kr</p>
                                 </span>
                                 </div>
                             </div>
@@ -257,6 +335,7 @@ function ResultView(props) {
             </div>
         </div>
     )
+
     function bookACB() {
         // eslint-disable-next-line react/prop-types
         props.onBook()

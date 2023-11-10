@@ -85,7 +85,7 @@ body {
 
 body {
   font-size: 0;
-  font-family: "Nunito Sans"
+  font-family: "Manrope";
 }
 
 html {
@@ -321,7 +321,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #111;
+  background-color: #2c2929ff;
   z-index: 1;
   width: 100%;
   height: -moz-fit-content;
@@ -392,7 +392,7 @@ span {
 
 .home-elem-2 {
   font-family: Manrope;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: #ffffffbf;
   line-height: 26px;
@@ -409,7 +409,7 @@ span {
 
 .home-elem-3 {
   font-family: Manrope;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: #ffffffbf;
   line-height: 26px;
@@ -426,7 +426,7 @@ span {
 
 .home-elem-4 {
   font-family: Manrope;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: #ffffffbf;
   line-height: 26px;
@@ -452,7 +452,7 @@ span {
 
 .home-elem-10 {
   padding: 12px 26px 12px 26px;
-  background-color: #936EFE;
+  background-color: #A437DB;
   border-radius: 100px 100px 100px 100px;
   border-width: 0px 0px 0px 0px;
   border-style: groove groove groove groove;
@@ -533,7 +533,7 @@ span {
   padding: 10px 10px 10px 10px;
   flex-direction: column;
   border-radius: 100px 100px 100px 100px;
-  background-color: #936EFE;
+  background-color: #a437db;
   justify-content: center;
   align-items: center;
   height: 50px;
@@ -677,7 +677,7 @@ span {
 
 .home-elem-26 {
   padding: 10px 42px 10px 42px;
-  background-color: #936EFE;
+  background-color: #A437DB;
   border-radius: 100px 100px 100px 100px;
   border-width: 0px 0px 0px 0px;
   border-style: groove groove groove groove;
@@ -808,7 +808,7 @@ span {
 }
 
 .home-elem-21 {
-  font-family: Open Sans;
+  font-family: Manrope;
   font-size: 16px;
   font-weight: 400;
   color: #000;
@@ -824,7 +824,55 @@ span {
   min-width: 16px;
   position: relative
 }
+.search-elem-fac{
+  font-family: Manrope;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
 
+}
+.search-elem-fac ul{
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+.search-elem-fac li{
+  margin-right: 5px;
+  border: 10px black;
+  background: whitesmoke;
+  font-size: 13px;
+  font-weight: 400;
+  color: #000;
+  line-height: 26px;
+  padding: 3px;
+  opacity: 100%;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: block;
+  min-height: 10px;
+  min-width: 16px;
+  position: relative;
+  text-align: center;
+  list-style: none;
+}
+.search-elem-fac h4{
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 34px;
+  z-index: 1;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  display: block;
+  min-height: 10px;
+  min-width: 100%;
+  position: relative
+}
 .home-elem-34 {
   padding: 0px 0px 0px 0px;
   flex-direction: column;
@@ -994,7 +1042,7 @@ span {
 
 .home-elem-46 {
   padding: 10px 42px 10px 42px;
-  background-color: #936EFE;
+  background-color: #a437db;
   border-radius: 100px 100px 100px 100px;
   border-width: 0px 0px 0px 0px;
   border-style: groove groove groove groove;
@@ -1076,7 +1124,7 @@ span {
 
 .home-elem-51 {
   padding: 10px 42px 10px 42px;
-  background-color: #936EFE;
+  background-color: #a437db;
   border-radius: 100px 100px 100px 100px;
   border-width: 0px 0px 0px 0px;
   border-style: groove groove groove groove;
@@ -1246,7 +1294,7 @@ span {
 .home-elem-73 {
   padding: 30px 20px 30px 20px;
   flex-direction: column;
-  background-color: #936EFE;
+  background-color: #a437db;
   border-radius: 20px 20px 20px 20px;
   height: auto;
   width: 100%;
@@ -1578,7 +1626,7 @@ span {
   font-family: Manrope;
   font-size: 50px;
   font-weight: 700;
-  color: #936EFE;
+  color: #a437db;
   line-height: 60px;
   padding: 20px 0px 10px 0px;
   text-align: left;
@@ -1695,7 +1743,7 @@ span {
 
 .home-elem-91 {
   padding: 10px 42px 10px 42px;
-  background-color: #936EFE;
+  background-color: #a437db;
   border-radius: 100px 100px 100px 100px;
   border-width: 0px 0px 0px 0px;
   border-style: groove groove groove groove;
@@ -1740,7 +1788,7 @@ span {
   flex-direction: row;
   -moz-column-gap: 10px;
   column-gap: 10px;
-  background-color: #936EFE;
+  background-color: #a437db;
   border-radius: 30px 30px 30px 30px;
   height: auto;
   width: 100%;
@@ -1849,7 +1897,7 @@ span {
   flex-direction: row;
   -moz-column-gap: 10px;
   column-gap: 10px;
-  background-color: #936EFE;
+  background-color: #a437db;
   border-radius: 30px 30px 30px 30px;
   height: auto;
   width: 100%;
@@ -1969,7 +2017,7 @@ span {
 
 .home-elem-161 {
   padding: 10px 42px 10px 42px;
-  background-color: #936EFE;
+  background-color: #a437db;
   border-radius: 100px 100px 100px 100px;
   border-width: 0px 0px 0px 0px;
   border-style: groove groove groove groove;
@@ -2330,7 +2378,7 @@ span {
   padding: 100px 16px 10px 16px;
   flex-direction: column;
   align-items: center;
-  background-color: #936EFE;
+  background-color: #A437DB;
   margin-left: auto;
   height: auto;
   width: 100%;
@@ -2640,7 +2688,7 @@ span {
   padding: 96px 0px 60px 0px;
   flex-direction: column;
   align-items: center;
-  background-color: #ECF5FF;
+  /*background-color: #FFFFFF;*/
   z-index: 1;
   height: -moz-fit-content;
   height: fit-content;
@@ -2650,10 +2698,10 @@ span {
 }
 
 .search-elem-3 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 600;
-  color: #057AE5;
+  color: black;
   line-height: 24px;
   padding: 8px 16px 8px 16px;
   background-color: #C5E2FE;
@@ -2669,10 +2717,10 @@ span {
 }
 
 .search-elem-4 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 48px;
   font-weight: 700;
-  color: #057AE5;
+  color: black;
   line-height: 58px;
   padding: 32px 0px 18px 0px;
   text-align: center;
@@ -2687,7 +2735,7 @@ span {
 }
 
 .search-elem-5 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 20px;
   font-weight: 400;
   color: #111;
@@ -2753,8 +2801,8 @@ span {
 .search-elem-8 {
   -o-object-fit: cover;
   object-fit: cover;
-  width: -moz-fit-content;
-  width: fit-content;
+  /*width: -moz-fit-content;*/
+  /*width: fit-content;*/
   height: 240px;
   position: relative
 }
@@ -2771,10 +2819,10 @@ span {
 }
 
 .search-elem-10 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
-  color: #057AE5;
+  color: black;
   line-height: 24px;
   z-index: 1;
   width: -moz-fit-content;
@@ -2809,7 +2857,7 @@ span {
 }
 
 .search-elem-13 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 24px;
   font-weight: 600;
   color: #000000;
@@ -2835,7 +2883,7 @@ span {
 }
 
 .search-elem-15 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 16px;
   font-weight: 400;
   color: #0000007f;
@@ -2858,7 +2906,9 @@ span {
 }
 
 .search-elem-17 {
+  margin-top: 12px;
   align-items: center;
+  justify-content: center;
   -moz-column-gap: 12px;
   column-gap: 12px;
   row-gap: 12px;
@@ -2896,7 +2946,7 @@ span {
 }
 
 .search-elem-20 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 700;
   color: #000000;
@@ -2912,7 +2962,7 @@ span {
 }
 
 .search-elem-21 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
   color: #000000;
@@ -2964,10 +3014,10 @@ span {
 }
 
 .search-elem-24 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
-  color: #057AE5;
+  color: black;
   line-height: 24px;
   z-index: 1;
   width: -moz-fit-content;
@@ -3002,7 +3052,7 @@ span {
 }
 
 .search-elem-25 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 24px;
   font-weight: 600;
   color: #000000;
@@ -3028,7 +3078,7 @@ span {
 }
 
 .search-elem-28 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 16px;
   font-weight: 400;
   color: #0000007f;
@@ -3089,7 +3139,7 @@ span {
 }
 
 .search-elem-32 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 700;
   color: #000000;
@@ -3105,7 +3155,7 @@ span {
 }
 
 .search-elem-33 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
   color: #000000;
@@ -3140,8 +3190,8 @@ span {
   padding: 0px 0px 0px 0px;
   -o-object-fit: cover;
   object-fit: cover;
-  width: -moz-fit-content;
-  width: fit-content;
+  /*width: -moz-fit-content;*/
+  /*width: fit-content;*/
   height: 240px;
   position: relative
 }
@@ -3158,10 +3208,10 @@ span {
 }
 
 .search-elem-39 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
-  color: #057AE5;
+  color: black;
   line-height: 24px;
   z-index: 1;
   width: -moz-fit-content;
@@ -3196,7 +3246,7 @@ span {
 }
 
 .search-elem-40 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 24px;
   font-weight: 600;
   color: #000000;
@@ -3222,7 +3272,7 @@ span {
 }
 
 .search-elem-43 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 16px;
   font-weight: 400;
   color: #0000007f;
@@ -3283,7 +3333,7 @@ span {
 }
 
 .search-elem-47 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 700;
   color: #000000;
@@ -3299,7 +3349,7 @@ span {
 }
 
 .search-elem-48 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
   color: #000000;
@@ -3351,10 +3401,10 @@ span {
 }
 
 .search-elem-54 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
-  color: #057AE5;
+  color: black;
   line-height: 24px;
   z-index: 1;
   width: -moz-fit-content;
@@ -3389,7 +3439,7 @@ span {
 }
 
 .search-elem-55 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 24px;
   font-weight: 600;
   color: #000000;
@@ -3415,7 +3465,7 @@ span {
 }
 
 .search-elem-58 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 16px;
   font-weight: 400;
   color: #0000007f;
@@ -3476,7 +3526,7 @@ span {
 }
 
 .search-elem-62 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 700;
   color: #000000;
@@ -3492,7 +3542,7 @@ span {
 }
 
 .search-elem-63 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
   color: #000000;
@@ -3544,10 +3594,10 @@ span {
 }
 
 .search-elem-69 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
-  color: #057AE5;
+  color: black;
   line-height: 24px;
   z-index: 1;
   width: -moz-fit-content;
@@ -3582,7 +3632,7 @@ span {
 }
 
 .search-elem-70 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 24px;
   font-weight: 600;
   color: #000000;
@@ -3608,7 +3658,7 @@ span {
 }
 
 .search-elem-73 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 16px;
   font-weight: 400;
   color: #0000007f;
@@ -3669,7 +3719,7 @@ span {
 }
 
 .search-elem-77 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 700;
   color: #000000;
@@ -3685,7 +3735,7 @@ span {
 }
 
 .search-elem-78 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
   color: #000000;
@@ -3737,10 +3787,10 @@ span {
 }
 
 .search-elem-84 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
-  color: #057AE5;
+  color: black;
   line-height: 24px;
   z-index: 1;
   width: -moz-fit-content;
@@ -3775,7 +3825,7 @@ span {
 }
 
 .search-elem-85 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 24px;
   font-weight: 600;
   color: #000000;
@@ -3801,7 +3851,7 @@ span {
 }
 
 .search-elem-88 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 16px;
   font-weight: 400;
   color: #0000007f;
@@ -3862,7 +3912,7 @@ span {
 }
 
 .search-elem-92 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 700;
   color: #000000;
@@ -3878,7 +3928,7 @@ span {
 }
 
 .search-elem-93 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
   color: #000000;
@@ -3895,32 +3945,32 @@ span {
 
 
 .book-elem-8::-moz-placeholder {
-  font-family: Kumbh Sans;
+  font-family: Manrope;
   color: #0000007f
 }
 
 .book-elem-8::placeholder {
-  font-family: Kumbh Sans;
+  font-family: Manrope;
   color: #0000007f
 }
 
 .book-elem-10::-moz-placeholder {
-  font-family: Kumbh Sans;
+  font-family: Manrope;
   color: #0000007f
 }
 
 .book-elem-10::placeholder {
-  font-family: Kumbh Sans;
+  font-family: Manrope;
   color: #0000007f
 }
 
 .book-elem-14::-moz-placeholder {
-  font-family: Kumbh Sans;
+  font-family: Manrope;
   color: #0000007f
 }
 
 .book-elem-14::placeholder {
-  font-family: Kumbh Sans;
+  font-family: Manrope;
   color: #0000007f
 }
 
@@ -3965,7 +4015,7 @@ span {
   padding: 42px 42px 42px 42px;
   flex-direction: column;
   row-gap: 20px;
-  background-color: #936EFE;
+  background-color: #a437db;
   border-radius: 30px 30px 30px 30px;
   width: 100%;
   height: -moz-fit-content;
@@ -3979,7 +4029,7 @@ span {
 
 .book-elem-5 {
   row-gap: 40px;
-  font-family: Work Sans;
+  font-family: Manrope;
   font-size: 25px;
   font-weight: 600;
   color: #000000ff;
@@ -4020,7 +4070,7 @@ span {
 }
 
 .book-elem-7 {
-  font-family: Work Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
   color: #000000cc;
@@ -4036,7 +4086,7 @@ span {
 
 .book-elem-8 {
   padding: 12px 16px 12px 12px;
-  font-family: Work Sans;
+  font-family: Manrope;
   font-size: 16px;
   color: #000000;
   line-height: 26px;
@@ -4064,7 +4114,7 @@ span {
 }
 
 .book-elem-9 {
-  font-family: Work Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
   color: #000000cc;
@@ -4080,7 +4130,7 @@ span {
 
 .book-elem-10 {
   padding: 12px 16px 12px 12px;
-  font-family: Work Sans;
+  font-family: Manrope;
   font-size: 16px;
   color: #000000;
   line-height: 26px;
@@ -4108,7 +4158,7 @@ span {
 }
 
 .book-elem-13 {
-  font-family: Work Sans;
+  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
   color: #000000cc;
@@ -4124,7 +4174,7 @@ span {
 
 .book-elem-14 {
   padding: 12px 16px 12px 12px;
-  font-family: Work Sans;
+  font-family: Manrope;
   font-size: 16px;
   color: #000000;
   line-height: 26px;
@@ -4145,17 +4195,16 @@ span {
   border-width: 0px 0px 0px 0px;
   border-style: groove groove groove groove;
   border-color: #333 #333 #333 #333;
-  font-family: Work Sans;
+  font-family: Manrope;
   font-size: 18px;
   font-weight: 600;
   color: #ffffffff;
   line-height: 28px;
   z-index: 1;
-  width: 119.19999999999999%;
+  width: 100%;
   height: -moz-fit-content;
   height: fit-content;
   position: relative;
-  max-width: 350px
 }
 
 .book-elem-4 {
@@ -4178,7 +4227,7 @@ span {
 
 .book-elem-17 {
   row-gap: 40px;
-  font-family: Work Sans;
+  font-family: Manrope;
   font-size: 25px;
   font-weight: 600;
   color: #000000ff;
@@ -4193,7 +4242,7 @@ span {
 }
 
 .book-elem-18 {
-  font-family: Nunito Sans;
+  font-family: Manrope;
   font-size: 16px;
   font-weight: 400;
   color: #000000;
@@ -4209,7 +4258,7 @@ span {
 }
 
 .book-elem-19 {
-  font-family: Work Sans;
+  font-family: Manrope;
   font-size: 18px;
   font-weight: 400;
   color: #433f3fff;
@@ -4262,7 +4311,7 @@ span {
 }
 
 .book-elem-23 {
-  font-family: Work Sans;
+  font-family: Manrope;
   font-size: 18px;
   font-weight: 400;
   color: #433f3fff;
@@ -4314,7 +4363,7 @@ span {
 }
 
 .book-elem-26 {
-  font-family: Work Sans;
+  font-family: Manrope;
   font-size: 18px;
   font-weight: 400;
   color: #433f3fff;
@@ -4366,7 +4415,7 @@ span {
 }
 
 .book-elem-30 {
-  font-family: Work Sans;
+  font-family: Manrope;
   font-size: 18px;
   font-weight: 400;
   color: #433f3fff;
@@ -4381,4 +4430,27 @@ span {
   min-height: 10px;
   min-width: 16px;
   position: relative
+}
+
+.Sort{
+  display: grid;
+  font-family: "Manrope";
+  grid-template-rows: 15px auto;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+}
+
+#sorter{
+  margin-top: 15px;
+  width: auto;
+  height: 100%;
+  background: white;
+  border-radius: 25px;
+  border: 2px solid black;
+  text-align: center;
+}
+#sorter p{
+color: white;
 }
